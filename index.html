@@ -1,87 +1,73 @@
 <!doctype html>
 <html>
-	<head>
-		<title> 굴삭기의 모든것 </title>
-			<meta charset="utf-8">
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124605818-1"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
+<head>
+	<title> 굴삭기의 모든것 </title>
+		<meta charset="utf-8">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124605818-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-124605818-1');
+		</script>
+	<style>
+		h1{
+			text-align:center;
+			padding-top:20px;
+			margin:2px;
+			font-size:50px;
+		}
+		h3{
+			border-bottom:2px solid gray;
+			text-align:center;
+			padding-bottom:20px;
+			margin:2px;	
+		}
+		body{
+			margin:0px;
+		}
+		ul{
+			border-right:2px solid gray;
+			width:120px;
+			margin:1px;
+			padding:40px;
+		}
+		#grid{
+			display:grid;
+			grid-template-columns:250px 1fr;
+		}
+	</style>
+</head>
 
-			  gtag('config', 'UA-124605818-1');
-			</script>
-		<style>
-			h1{
-				border:2px;
-				border-color:gray;
-				border-style:solid;
-				padding:20px;
-				border-bottom:2px;
-			}
-		</style>
-		<style>
-			h2{
-				border:2px;
-				border-color:black;
-				border-top:0px;
-				border-bottom:0px;
-				border-left:0px;
-				/**display:inline;*/
-			}
-		</style>
-	</head>
-
-	<body>
-		<h1> Backhoe - 백호, 굴삭기의 모든것 </h1>
-
-		<h2> 제조사 </h2>
+<body>
+	<h1> Backhoe </h1>
+	<h3>백호, 굴삭기의 모든것 </h3>
+	
+	<div id="grid">
+		<div>
 			<ul>
-				<li> <a href="volvo.html"> 볼보 </a></li>
-				<li> <a href="doosan.html"> 두산 </a></li>
-				<li> <a href="hyundai.html"> 현대 </a></li>
-				<li> <a href="cat"> 캐터필라 <a><li>
-				<li> <a href="mini.html"> 미니 </a></li>
-				<li> <a href="etc.html"> etc </a></li>
-				<li> 잡다한 지혜 </li>			
+				<li><a href="volvo.html"> 볼보 </a></li>
+				<li><a href="doosan.html"> 두산 </a></li>
+				<li><a href="hyundai.html"> 현대 </a></li>
+				<li><a href="cat"> 캐터필라 </a></li>
+				<li><a href="mini.html"> 미니 </a></li>
+				<li><a href="etc.html"> 기타 기종</a></li>
+				<li><a herf="wisdom"> 잡다한 지혜</a></li>
 			</ul>
-
-		<h3> 각 제조사별 사이트 찾아가기 </h3>
-			<ul>
-				<li><a href="https://www.volvoce.com/south-korea/ko-kr/" target="_blank"> 1. 볼보</a></li>
-				<li><a href="http://www.doosaninfracore.com/kr/" target="_blank"> 2. 두산 인프라코어</a></li>
-				<li><a href="https://www.hyundai-ce.com/Korean/PIK/ICEPIK20.aspx?type=a&code=a0" target="_blank"> 3. 현대</a></li>
-				<li><a href="http://www.catmachine.kr/" target="_blank" > 4. 케터필라</a></li>
-				<li><a href="http://www.sunnyyk.co.kr/" target="_blank"> 5. 얀마_YK건기 </a></li>
-				<li><a href="http://samjung-kenki.co.kr/" target="_blank"> 6. 코벨코_삼정건설기계</a></li>
-				<li><a href="http://www.minihitachi.com/" target="_blank"> 7. 히타치</a></li>
-
-			</ul>
-
-
-			<!-- 아래의 <p>태그는 페이지 아래의 댓글 달기인 "disqus"의 기능입니다. -->
-			<p>
-			<div id="disqus_thread"></div>
-			<script>
-			/**
-			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-			*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-			/*
-			var disqus_config = function () {
-			this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-			this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-			};
-			*/
-			(function() { // DON'T EDIT BELOW THIS LINE
-			var d = document, s = d.createElement('script');
-			s.src = 'https://backhoe-1.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-			})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+	<div>
+		<div>	
+			<p>		
+				<a href="https://www.volvoce.com/south-korea/ko-kr/"> 1. 볼보</a><br>
+				<a href="http://www.doosaninfracore.com/kr/"> 2. 두산 인프라코어</a><br>
+				<a href="https://www.hyundai-ce.com/Korean/PIK/ICEPIK20.aspx?type=a&code=a0"> 3. 현대</a><br>
+				<a href="http://www.catmachine.kr/"> 4. 케터필라</a><br>
+				<a href="http://www.sunnyyk.co.kr/"> 5. 얀마_YK건기 </a><br>
+				<a href="http://samjung-kenki.co.kr/"> 6. 코벨코_삼정건설기계</a><br>
+				<a href="http://www.minihitachi.com/"> 7. 히타치</a><br>
 			</p>
-
-	</body>
+		</div>
+	</div>
+</body>
 </html>
