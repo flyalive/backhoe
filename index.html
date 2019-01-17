@@ -12,11 +12,14 @@
 		  gtag('config', 'UA-124605818-1');
 		</script>
 	<style>
+
 		h1{
+			text-decoration: none;
 			text-align:center;
 			padding-top:20px;
 			margin:2px;
 			font-size:50px;
+
 		}
 		h3{
 			border-bottom:2px solid gray;
@@ -26,22 +29,34 @@
 		}
 		body{
 			margin:0px;
+
 		}
-		ul{
+		#grid ul{
 			border-right:2px solid gray;
-			width:120px;
-			margin:1px;
-			padding:40px;
+			width:200px;
+			margin:0;
+			padding:25px;
+			line-height:140%;
+			font-size:115%;
+			list-style-type:none /* 리스트앞의 점을 엢애는것 */
 		}
 		#grid{
 			display:grid;
 			grid-template-columns:250px 1fr;
 		}
+		@media(max-width: 600px){
+			#grid {
+				display:block
+				}
+		}
+		#grid p{
+			margin:30px;
+		}
 	</style>
 </head>
 
 <body>
-	<h1> Backhoe </h1>
+	<h1> <a href="index.html"> Backhoe </a></h1>
 	<h3>백호, 굴삭기의 모든것 </h3>
 	
 	<div id="grid">
@@ -53,21 +68,18 @@
 				<li><a href="cat"> 캐터필라 </a></li>
 				<li><a href="mini.html"> 미니 </a></li>
 				<li><a href="etc.html"> 기타 기종</a></li>
-				<li><a herf="wisdom"> 잡다한 지혜</a></li>
+				<li><a href="wisdom.html"> 잡다한 지혜</a></li>
 			</ul>
-		</div>
-	<div>
-		<div>	
-			<p>		
-				<a href="https://www.volvoce.com/south-korea/ko-kr/"> 1. 볼보</a><br>
-				<a href="http://www.doosaninfracore.com/kr/"> 2. 두산 인프라코어</a><br>
-				<a href="https://www.hyundai-ce.com/Korean/PIK/ICEPIK20.aspx?type=a&code=a0"> 3. 현대</a><br>
-				<a href="http://www.catmachine.kr/"> 4. 케터필라</a><br>
-				<a href="http://www.sunnyyk.co.kr/"> 5. 얀마_YK건기 </a><br>
-				<a href="http://samjung-kenki.co.kr/"> 6. 코벨코_삼정건설기계</a><br>
-				<a href="http://www.minihitachi.com/"> 7. 히타치</a><br>
-			</p>
-		</div>
+		</div>	
+		<p>		
+			<a href="https://www.volvoce.com/south-korea/ko-kr/"> 1. 볼보</a><br>
+			<a href="http://www.doosaninfracore.com/kr/"> 2. 두산 인프라코어</a><br>
+			<a href="https://www.hyundai-ce.com/Korean/PIK/ICEPIK20.aspx?type=a&code=a0"> 3. 현대</a><br>
+			<a href="http://www.catmachine.kr/"> 4. 케터필라</a><br>
+			<a href="http://www.sunnyyk.co.kr/"> 5. 얀마_YK건기 </a><br>
+			<a href="http://samjung-kenki.co.kr/"> 6. 코벨코_삼정건설기계</a><br>
+			<a href="http://www.minihitachi.com/"> 7. 히타치</a><br>
+		</p>
 	</div>
 </body>
 </html>
